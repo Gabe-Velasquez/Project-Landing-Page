@@ -1,11 +1,11 @@
-.head {
+.header {
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.head a {
+.header a {
   float: right;
   display: block;
   text-align: center;
@@ -13,7 +13,7 @@
   text-decoration: none;
 }
 
-.head a:hover {
+.header a:hover {
   color: black;
   background: #ddd;
 }
