@@ -51,6 +51,20 @@ text-decoration:underline
     backdrop-filter: blur(10px);
 }
 
+.contact-holder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2%;
+}
+
+.contact-left{
+  width: 400px;
+  flex-wrap: wrap;
+  display:flex;
+  align-content: center;
+}
+
 .service-card{
     width: 300px;
     text-align: center;
@@ -97,4 +111,8 @@ text-decoration:underline
   body {
     background: rgb(35, 87, 121);    
     color: yellowgreen;  
+  }
+
+  footer{
+    text-align: center;
   }
